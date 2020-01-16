@@ -40,6 +40,9 @@
     <Compile Include="webpack-config.js">
       <SubType>Code</SubType>
     </Compile>
+    <Content Include=".sonarcloud.properties">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="dist\app-bundle.js.map" />
     <Content Include="index.html">
       <SubType>Code</SubType>
